@@ -1,0 +1,24 @@
+{
+  "name": "firsttutorial",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --mode localhost",
+    "build": "tsc -b && vite build",
+    "build:watch": "./node_modules/typescript/bin/tsc --watch -p tsconfig.json"
+  },
+  "author": "chris wilson",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.3",
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}
